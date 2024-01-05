@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"Project2","l":"Abilities"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"Project2","l":"BaseCharacter"},{"p":"Project2","l":"FireballScroll"},{"p":"Project2","l":"MagicCharacter"},{"p":"Project2","l":"PlayerData"},{"p":"Project2","l":"Project2"}];updateSearchResults();

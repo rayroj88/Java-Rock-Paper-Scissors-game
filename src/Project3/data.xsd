@@ -1,0 +1,23 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="PLayers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Player" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="guid"/>
+              <xs:element type="xs:string" name="isActive"/>
+              <xs:element type="xs:string" name="firstName"/>
+              <xs:element type="xs:string" name="lastName"/>
+              <xs:element type="xs:string" name="email"/>
+              <xs:element type="xs:short" name="rank"/>
+              <xs:element type="xs:byte" name="winRate"/>
+              <xs:element type="xs:string" name="registered"/>
+              <xs:element type="xs:string" name="lastPlayed"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
